@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.bg{
+    width:100%;
+    min-height: 100vh;
+    background-color: rgb(243, 234, 227);
+    display: flex;
+
+}
+.card{
+    margin: auto;
+    background-color: rgb(250, 250, 250);
+    border-radius: 20px;
+    width: 500px;
+    height: 370px;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+}
+.imag{
+    overflow: hidden;
+    width:50%;
+    /* display: inline-block; */
+    float: left;
+    position: relative;
+
+}.bg .card .imag img {
+    width: 100%;
+
+}
+.txt{
+    float: left;
+    width: 50%;
+}
+.txt .tit {
+    font-family: "Cormorant Infant", serif;
+    font-size: small;
+    font-weight: 300;
+    padding-top: 20px;
+    font-style: normal;
+    top: 10px;
+    left: 55%;
+    position: absolute;
+}
+.txt h2{
+    font-family: 'Playfair Display', serif;
+    font-weight: 700; 
+    font-style: bold;
+    padding-right: 20px;
+    padding-top: 50px;
+    padding-left: 20px;
+    font-size:25px;
+    line-height: 30px;
+}
+.par{
+    padding-left: 20px;
+    font-weight: 100;
+    color: rgb(85, 85, 85);
+    font-size: 14px;
+    padding-top: 15px;
+    padding-right: 20px;
+}
+.salary{
+    padding-top: 30px;
+}
+.salary .new{
+    display: inline;
+    color:  rgb(0, 83, 0) ;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+}
+.salary .old{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    padding-left: 20px;
+    display: inline;
+    text-decoration-line: line-through;
+    color: rgb(85, 85, 85);
+}
+.btn h5 {
+    padding-left: 35px;
+    padding-top: 12px;
+    display: inline-block;
+    color: white;
+}
+button{
+    width: 140px;
+    height: 35px;
+    background-color: rgb(2, 119, 70);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin-top:20px ;
+    margin-left: 50px;
+    transition: .5s;
+}
+button:hover{
+    background-color: rgb(0, 83, 0);
+    color: white;
+    transition: .5s;
+}
